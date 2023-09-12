@@ -1,0 +1,90 @@
+
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body,html{
+  background-color: #6665ee;
+  display: grid;
+  height: 100%;
+  place-items: center;
+}
+
+h4{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+.container{
+    width:600px;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 20px rgba(0,0,0,0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+form input{
+    margin: 9px 0;
+    outline:none;
+    border: 1px solid #6665ee;
+}
+
+form input.box{
+    height: 50px;
+    font-size: 1.2rem;
+    padding: 1px 10px;
+width: 400px;
+border-radius: 10%;
+box-shadow: 15px 15px 15px rgba(0,0,0,0.5);
+}
+form input.button{
+    font-size: 1.2rem;
+    background-color: rgb(7, 105, 105);
+    border-radius: 40px;
+    font-weight: 500;
+    padding: 12px 12px;
+    cursor:pointer;
+    color: rgb(151, 219, 83);
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.4);
+}
+h5{
+    background-color: #FFD4CD;
+    width: 500px;
+    font-size: 1.3rem;
+    padding: 7px 0;
+}
+
+.feedback{
+    display:none;
+}
+.show{
+    display:block;
+}
+.message-content{
+    color:#93c758;
+}
+
+
